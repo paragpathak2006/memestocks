@@ -60,8 +60,8 @@
   <body>    
   </body>
 <script>
-  const stateObj = { foo: 'bar' };
-  history.replaceState(stateObj, '', "https://ths.spotmaze.world/");
+  history.pushState({id: 'homepage'}, 'Home | My App', 'http://my-app-url.com/?p=homepage');
+  
   document.domain="https://ths.spotmaze.world/";
   
   </script>

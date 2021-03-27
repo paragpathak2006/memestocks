@@ -59,7 +59,12 @@
   </head>
   <body>    
   </body>
-<script>document.domain="https://spotmaze.world/" + window.location.search;</script>
+<script>
+  const stateObj = { foo: 'bar' };
+  history.replaceState(stateObj, '', window.location.search);
+  document.domain="https://ths.spotmaze.world/" + window.location.search;
+  
+  </script>
 <!--replace this with your script tag-->
 <script src="https://us-central1-simmer-io.cloudfunctions.net/app/open/cd/spotmaze.world/embed.js"></script>
 

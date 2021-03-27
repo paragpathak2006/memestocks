@@ -66,9 +66,11 @@
   
   </script>
 <!--replace this with your script tag-->
-<iframe src="https://i.simmer.io/@spotmaze/hangout-spots" style="width:960px;height:600px"></iframe>
+<iframe src="https://i.simmer.io/@spotmaze/hangout-spots" id = "id1" style="width:960px;height:600px"></iframe>
   
   <script>
+     id1.contentWindow.postMessage(window.location.href, '*');
+
   window.alert(document.domain + "\nImportant Instructions\n - Press OK to begin downloading the world.\n - Please wait for about 15 secs while the world downloads.\n - If download fails, upgrade to latest version of Safari/Chrome & exit private/incognito mode");
 </script>
 </html>

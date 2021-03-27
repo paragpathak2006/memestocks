@@ -59,10 +59,18 @@
   </head>
   <body>    
   </body>
-
+<!--script>document.domain="i.simmier.io";</script-->
 <!--replace this with your script tag-->
-<script src="https://us-central1-simmer-io.cloudfunctions.net/app/open/cd/spotmaze.world/embed.js"></script>
-<script>
+<!--script src="https://us-central1-simmer-io.cloudfunctions.net/app/open/cd/spotmaze.world/embed.js"></script-->
+
+  <script type="text/javascript">
+    url = window.location.search;
+    document.write('<iframe src="./simmer-page_files/_07e834eb-2987-d553-319b-c47d95984067.html?spot=' + url);
+    document.write('style = "border: 0px; top: 0px; left: 0px; width: 100%; height: 100%;" > </iframe>');
+  </script>
+
+  
+  <script>
   window.alert(window.location.search + "\nImportant Instructions\n - Press OK to begin downloading the world.\n - Please wait for about 15 secs while the world downloads.\n - If download fails, upgrade to latest version of Safari/Chrome & exit private/incognito mode");
 </script>
 </html>

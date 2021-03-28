@@ -63,7 +63,14 @@
   document.domain="https://ths.spotmaze.world/"; -->
 
   <!--replace this with your script tag-->
-<iframe src="https://i.simmer.io/@spotmaze/hangout-spots?mymessage" id = "id1" style="width:960px;height:600px"></iframe>
+<script>
+  string a = "<iframe id = \"id1\" style=\"width:960px;height:600px\" src=\"https://i.simmer.io/@spotmaze/hangout-spots\"";
+  string b = "?mymessge\""
+  string c = "</iframe>\""
+  document.write(a+b+c);
+//<iframe src="https://i.simmer.io/@spotmaze/hangout-spots?mymessage" id = "id1" style="width:960px;height:600px"></iframe>
+//document.write("<iframe width="560" height="315" src="https://www.youtube.com/embed/9Ow8QgoXzeE" frameborder="0" allowfullscreen></iframe>");
+</script>
   
   <script>
     setTimeout(function()

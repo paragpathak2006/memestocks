@@ -59,14 +59,13 @@
   </head>
   <body>    
   </body>
+  <!--history.pushState({id: 'homepage'}, 'Home | My App', 'http://my-app-url.com/?p=homepage');
+  document.domain="https://ths.spotmaze.world/"; -->
 <script>
-  history.pushState({id: 'homepage'}, 'Home | My App', 'http://my-app-url.com/?p=homepage');
-  
-  document.domain="https://ths.spotmaze.world/";
   
   </script>
 <!--replace this with your script tag-->
-<iframe src="https://i.simmer.io/@spotmaze/hangout-spots" id = "id1" style="width:960px;height:600px"></iframe>
+<iframe src="https://i.simmer.io/@spotmaze/hangout-spots?wefs" id = "id1" style="width:960px;height:600px"></iframe>
   
   <script>
      id1.contentWindow.postMessage("hi there", '*');

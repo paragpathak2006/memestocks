@@ -67,8 +67,10 @@
   
   <script>
     setTimeout(function()
-               { id1.contentWindow.postMessage("hi there", '*'); 
-                  window.alert(window.location.search + "\nImportant Instructions\n - Press OK to begin downloading the world.\n - Please wait for about 15 secs while the world downloads.\n - If download fails, upgrade to latest version of Safari/Chrome & exit private/incognito mode");
+               {
+                window.alert("hi there posted");
+                id1.contentWindow.postMessage("hi there", '*'); 
+                  //window.alert(window.location.search + "\nImportant Instructions\n - Press OK to begin downloading the world.\n - Please wait for about 15 secs while the world downloads.\n - If download fails, upgrade to latest version of Safari/Chrome & exit private/incognito mode");
                }, 5000);
 </script>
 </html>

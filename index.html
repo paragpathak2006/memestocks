@@ -79,13 +79,11 @@
 <script>
   url = window.location.search.replace(/\?|%3f/gi, '');
   document.write('<iframe  src="https://i.simmer.io/@spotmaze/hangout-spots?' + url + '" style="border: 0px; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>');
-</script>
-  <script>
-    setTimeout(function()
-               {
-                window.alert("hi there posted");
-                id5.contentWindow.postMessage("hi there", '*'); 
-                  //window.alert(window.location.search + "\nImportant Instructions\n - Press OK to begin downloading the world.\n - Please wait for about 15 secs while the world downloads.\n - If download fails, upgrade to latest version of Safari/Chrome & exit private/incognito mode");
-               }, 5000);
+
+window.alert("Important Instructions\n\
+- Press OK to begin downloading the world.\n\
+- Please wait for about 15 secs while the world downloads.\n\
+- If download fails, upgrade to latest version of Safari/Chrome & exit private/incognito mode.\n\
+- For Login and FAQs visit https://www.spotmaze.com/");
 </script>
 </html>

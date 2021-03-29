@@ -3,6 +3,12 @@
   <head>
     404 redirect
   </head>
+  <script>
+    var url = window.location.pathname;
+    var filename = url.substring(url.lastIndexOf('/')+1);
+    alert(filename);
+  </script>
+  
   <body>
     404 redirect
   </body>

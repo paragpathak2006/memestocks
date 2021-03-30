@@ -64,26 +64,25 @@
   document.domain="https://ths.spotmaze.world/";
 Spotmaze is a virtual world for hosting forurms at virtual locations\n\-->
 <!--updated replace this with your script tag
-		window.alert("Important Instructions:\n\
-- Press OK to begin downloading the world.\n\
-- If download fails, upgrade to latest version of Safari/Chrome\n\
-  and exit private/incognito mode.\n\
-- Visit https://www.spotmaze.com/ for login/signup or faqs ");
 
 })
 		
+	Swal.fire('Instructions','- Press OK to begin downloading the world.\n\
+- If download fails, upgrade to latest version of Safari/Chrome\n\
+  and exit private/incognito mode.\n\
+- Visit https://www.spotmaze.com/ for login/signup or faqs').then((result) => {});
 
 -->
 <script>
 </script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script>
-	Swal.fire('Instructions','- Press OK to begin downloading the world.\n\
+window.alert("Important Instructions:\n\
+- Press OK to begin downloading the world.\n\
 - If download fails, upgrade to latest version of Safari/Chrome\n\
   and exit private/incognito mode.\n\
-- Visit https://www.spotmaze.com/ for login/signup or faqs').then((result) => {});
-	url = window.location.search.replace(/\?|%3f/gi, '');
-	document.write('<iframe src = "https://i.simmer.io/@spotmaze/hangout-spots?' + url + '"\
-	style = "border: 0px; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>');
+- Visit https://www.spotmaze.com/ for login/signup or faqs ");
+url = window.location.search.replace(/\?|%3f/gi, '');
+document.write('<iframe src = "https://i.simmer.io/@spotmaze/hangout-spots?' + url + '"\style = "border: 0px; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>');
 </script>
 </html>

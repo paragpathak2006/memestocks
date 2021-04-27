@@ -65,7 +65,6 @@
           loadingBar.style.display = "none";
           var spot1 = "spot1";
           var spot2 = "spot2";
-          setTimeout(function () {unityInstance.SetFullscreen(1);}, 5000);
           
           fullscreenButton.onclick = () => { unityInstance.SetFullscreen(1);};
           buttonbox1.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot1); };
@@ -76,7 +75,8 @@
         });
       };
       document.body.appendChild(script);
-      
+      setTimeout(function () {unityInstance.SetFullscreen(1);}, 1000);
+
 
     </script>
   </body>

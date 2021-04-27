@@ -66,7 +66,7 @@
           unityInstance.SetFullscreen(1);
           var spot1 = "spot1";
           var spot2 = "spot2";
-          setTimeout(function () {alert("timeout");unityInstance.SetFullscreen(1);}, 10000);
+          setTimeout(function () {alert("timeout");}, 10000);
           
           fullscreenButton.onclick = () => { unityInstance.SetFullscreen(1);};
           buttonbox1.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot1); };

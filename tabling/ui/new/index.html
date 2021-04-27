@@ -20,9 +20,9 @@
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Faces</div>
-        <div id="unity-buttonbox1" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Spotmaze-2</div>
-        <div id="unity-buttonbox2" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Virtual United-2</div>
-        <div id="unity-buttonbox3" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Reset-2</div>
+        <div id="unity-buttonbox1" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Spotmaze-3</div>
+        <div id="unity-buttonbox2" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Virtual United-3</div>
+        <div id="unity-buttonbox3" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Reset-3</div>
       </div>
     </div>
     <script>
@@ -65,7 +65,7 @@
           loadingBar.style.display = "none";
           var spot1 = "spot1";
           var spot2 = "spot2";
-          setTimeout(function () {alert("timeout"); unityInstance.SetFullscreen(1);}, 10000);
+          setTimeout(function () {unityInstance.SetFullscreen(1);}, 5000);
           
           fullscreenButton.onclick = () => { unityInstance.SetFullscreen(1);};
           buttonbox1.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot1); };

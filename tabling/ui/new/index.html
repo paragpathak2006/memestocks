@@ -66,8 +66,8 @@
           var spot1 = "spot1";
           var spot2 = "spot2";
 
-          window.addEventListener('message',receiveMessage,false);
           function reciveMessage(event) {unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot1);}
+          window.addEventListener('message',receiveMessage,false);
 
           fullscreenButton.onclick = () => { unityInstance.SetFullscreen(1);};
           buttonbox1.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot1); };

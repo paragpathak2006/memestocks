@@ -6,25 +6,7 @@
     <title>Tabling Session | Spotmaze</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <div id="unity-buttonbox3" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Reset-IN</div>
-    	<style type="text/css">
-        body,
-        html {
-          margin: 0;
-          padding: 0;
-          height: 100%;
-          overflow: hidden;
-        }
-
-        #content {
-          position: absolute;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          top: 0px;
-        }
-	  </style>
-    
+    <div id="unity-buttonbox3" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Reset-IN</div>    
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -69,10 +51,10 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "1280px";
-        canvas.style.height = "800px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
-      loadingBar.style.display = "block";
+	    loadingBar.style.display = "block";
 
       var script = document.createElement("script");
       script.src = loaderUrl;

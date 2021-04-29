@@ -69,8 +69,14 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "320px";
-        canvas.style.height = "200px";
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+  	canvas.style.width = "100%";
+        canvas.style.position = "absolute";
+	canvas.style.left = "0px";
+	canvas.style.right= "0px";
+	canvas.style.bottom= "0px";
+	canvas.style.top = "0px";
       }
       loadingBar.style.display = "block";
 

@@ -12,8 +12,8 @@ body { padding: 0; margin: 0 }
 .unity-mobile #unity-footer { display: none }
 #unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
 
-#unity-buttonbox1 { float:center; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
-#unity-buttonbox2 { float:center; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-buttonbox1 { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-buttonbox2 { float:right; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
 #unity-buttonbox3 { float:center; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
 
 #unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }

@@ -6,7 +6,7 @@
     <title>Tabling Session | Spotmaze</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <div id="unity-buttonbox3" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Reset - Back</div>    
+    <div id="unity-buttonbox3" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Reset - Back2</div>    
   </head>
 <style type="text/css">
 	body,
@@ -83,7 +83,16 @@
           var spot1 = "spot1";
           var spot2 = "spot2";
 
-          function reciveMessage(event) {setTimeout(function(){ try {unityInstance.SetFullscreen(1);}catch(err) {setTimeout(function(){ unityInstance.SetFullscreen(1);}},100);}
+          function reciveMessage(event) {setTimeout(function()
+	    { 
+		  try {
+			  unityInstance.SetFullscreen(1);
+		      }
+		  catch(err) 
+		  {
+			  setTimeout(function(){ unityInstance.SetFullscreen(1);},100);
+		  }
+	  }
           window.addEventListener('message',reciveMessage,false);
 
           fullscreenButton.onclick = () => { unityInstance.SetFullscreen(1);};

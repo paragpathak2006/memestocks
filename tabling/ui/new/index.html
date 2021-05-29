@@ -1,117 +1,101 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Tabling Session | Spotmaze</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <!--div id="unity-buttonbox3" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Reset - iFrame</div-->
-</head>
+    <div id="unity-buttonbox3" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Reset - iFrame</div>    
+  </head>
 <style type="text/css">
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        overflow: hidden;
-    }
-
-    #content {
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        top: 0px;
-    }
-</style>
-
-<body>
+	body,
+	html {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	#content {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0px;
+	}
+	</style>	
+  <body>
     <div id="unity-container" class="unity-desktop">
-        <canvas id="unity-canvas"></canvas>
-        <div id="unity-loading-bar">
-            <div id="unity-logo"></div>
-            <div id="unity-progress-bar-empty">
-                <div id="unity-progress-bar-full"></div>
-            </div>
+      <canvas id="unity-canvas"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
         </div>
-        <div id="unity-footer">
-            <div id="unity-webgl-logo"></div>
-            <div id="unity-fullscreen-button"></div>
-            <div id="unity-build-title">Faces</div>
-            <!--div id="unity-buttonbox1" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Go to Spotmaze</div-->
-            <!--div id="unity-buttonbox2" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Go to Virtual United</div-->
-        </div>
+      </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">Faces</div>
+        <div id="unity-buttonbox1" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Go to Spotmaze</div>
+        <div id="unity-buttonbox2" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Go to Virtual United</div>
+      </div>
     </div>
     <script>
-        var buildUrl = "Build";
-        var loaderUrl = buildUrl + "/tabling-3.loader.js";
-        var config = {
-            dataUrl: buildUrl + "/tabling-3.data",
-            frameworkUrl: buildUrl + "/tabling-3.framework.js",
-            codeUrl: buildUrl + "/tabling-3.wasm",
-            streamingAssetsUrl: "StreamingAssets",
-            companyName: "DefaultCompany",
-            productName: "Faces",
-            productVersion: "0.1",
-        };
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/tabling-3.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/tabling-3.data",
+        frameworkUrl: buildUrl + "/tabling-3.framework.js",
+        codeUrl: buildUrl + "/tabling-3.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "Faces",
+        productVersion: "0.1",
+      };
 
-        var container = document.querySelector("#unity-container");
-        var canvas = document.querySelector("#unity-canvas");
-        var loadingBar = document.querySelector("#unity-loading-bar");
-        var progressBarFull = document.querySelector("#unity-progress-bar-full");
-        // var fullscreenButton = document.querySelector("#unity-fullscreen-button");
-        // var buttonbox1 = document.querySelector("#unity-buttonbox1");
-        // var buttonbox2 = document.querySelector("#unity-buttonbox2");
-        // var buttonbox3 = document.querySelector("#unity-buttonbox3");
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var buttonbox1 = document.querySelector("#unity-buttonbox1");
+      var buttonbox2 = document.querySelector("#unity-buttonbox2");
+      var buttonbox3 = document.querySelector("#unity-buttonbox3");
+      
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        container.className = "unity-mobile";
+        config.devicePixelRatio = 1;
+      } else {
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
+      }
+	    loadingBar.style.display = "block";
 
-        if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-            container.className = "unity-mobile";
-            config.devicePixelRatio = 1;
-        } else {
-            canvas.style.width = "960px";
-            canvas.style.height = "600px";
-        }
-        loadingBar.style.display = "block";
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+        }).then((unityInstance) => {
+          loadingBar.style.display = "none";
+          var spot1 = "spot1";
+          var spot2 = "spot2";
 
-        var script = document.createElement("script");
-        script.src = loaderUrl;
-        script.onload = () => 
-        {
-            createUnityInstance(canvas, config, (progress) => {progressBarFull.style.width = 100 * progress + "%";}).then((unityInstance) => 
-            {
-                loadingBar.style.display = "none";
-                var spot1 = "spot1";
-                var spot2 = "spot2";
+          function reciveMessage(event) {unityInstance.SendMessage('MainCamera','setWebGLStartingPos',"origin");}
+          window.addEventListener('message',reciveMessage,false);
 
-                function reciveMessage(event) 
-                {
-                    // if(event.data=="Full-Screen"){unityInstance.SetFullscreen(1);}
-                    // if(event.data=="Reset-Position"){unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "origin");}
-                    // if(event.data=="Update-Positions"){unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "origin");}
-                    // if(event.data=="Reset-Position"){unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "origin");}
-                    // if(event.data=="Reset-Position"){unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "origin");}
-                    
-                    switch(event.data) 
-                    {
-                        case "Full-Screen":unityInstance.SetFullscreen(1);break;
-                        case "Reset-Position":unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "origin");break;
-                        case "Update-Positions":unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "spot1");break;
-                        case "Refresh-Positions":unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "spot2");break;
-                        default: alert(event.data);
-                    }
-                }
-                window.addEventListener('message', reciveMessage, false);
+          fullscreenButton.onclick = () => { unityInstance.SetFullscreen(1);};
+          buttonbox1.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot1); };
+          buttonbox2.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot2); };
+          buttonbox3.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',"origin"); };
+        }).catch((message) => {
+          alert(message);
+        });
+      };
+      document.body.appendChild(script);
 
-                // fullscreenButton.onclick = () => { unityInstance.SetFullscreen(1); };
-                // buttonbox1.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot1); };
-                // buttonbox2.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot2); };
-                // buttonbox3.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',"origin"); };
-            }).catch((message) => {alert(message);});
-        };
-        document.body.appendChild(script);
     </script>
-</body>
-
+  </body>
 </html>

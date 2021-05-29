@@ -83,6 +83,17 @@
           var spot1 = "spot1";
           var spot2 = "spot2";
 
+	            function reciveMessage(event) {
+                setTimeout(function () 
+                {
+                    try {
+                        unityInstance.SetFullscreen(1);
+                    }
+                    catch (err) {
+                        setTimeout(function () { unityInstance.SetFullscreen(1); }, 100);
+                    }
+                }, 100)
+            }
 
           window.addEventListener('message',reciveMessage,false);
 

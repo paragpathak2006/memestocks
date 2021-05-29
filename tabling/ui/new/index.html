@@ -98,7 +98,7 @@
                         case "Full-Screen":unityInstance.SetFullscreen(1);break;
                         case "Reset-Position":unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "origin");break;
                         case "Update-Positions":unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "spot1");break;
-                        case "Update-Positions":unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "spot2");break;
+                        case "Refresh-Positions":unityInstance.SendMessage('MainCamera', 'setWebGLStartingPos', "spot2");break;
                         default: alert(event.data);
                     }
                 }

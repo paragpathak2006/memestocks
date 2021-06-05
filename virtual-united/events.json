@@ -1,17 +1,6 @@
-[
   {
-  "name":"John", 
-  "age":30, 
-  "car":null
-  },
-  {
-  "name":"murphy", 
-  "age":31, 
-  "car":1
-  },
-  {
-  "name":"Dan", 
-  "age":32, 
-  "car":2
+  "event1":"url1", 
+  "event2":"url2", 
+  "event3":"url3", 
+  "default":""   
   }
-]

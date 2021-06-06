@@ -1,6 +1,6 @@
   {
-  "event1":"url1", 
-  "event2":"url2", 
-  "event3":"url3", 
-  "default":""   
+  ["event1"]:"url1", 
+  ["event2"]:"url2", 
+  ["event3"]:"url3", 
+  ["default"]:""   
   }

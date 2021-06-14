@@ -1,6 +1,6 @@
 {
   "Title":  "Traingular Map",
-  "Help" : "https://www.spotmaze.com"
+  "Help" : "https://www.spotmaze.com",
   "spot":[
     {"n":1,"Id":"Source",       "Location": [0,0],  "Image":"img1", "ForumURL":"welcome-to-the-forum/ginger-bread-house"},
     {"n":2,"Id":"Traveling",    "Location": [0,1],  "Image":"img2", "ForumURL":"welcome-to-the-forum/ginger-bread-house"},

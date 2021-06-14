@@ -10,14 +10,14 @@
   "Help" : "https://www.spotmaze.com",
 
   "spots":[
-    {"n":1,"Id":"Source",       "Location": [0,0],  "Image":"img1.png", "ForumURL":"welcome-to-the-forum/ginger-bread-house"},
-    {"n":2,"Id":"Traveling",    "Location": [0,1],  "Image":"img2.png", "ForumURL":"welcome-to-the-forum/ginger-bread-house"},
-    {"n":3,"Id":"Destination",  "Location": [1,0],  "Image":"img3.png", "ForumURL":"welcome-to-the-forum/ginger-bread-house"}
+    {"n":1,"Id":"Source",       "Location": [0,0],  "Image":"img1.png", "Post":"welcome-to-the-forum/ginger-bread-house"},
+    {"n":2,"Id":"Traveling",    "Location": [0,1],  "Image":"img2.png", "Post":"welcome-to-the-forum/ginger-bread-house"},
+    {"n":3,"Id":"Destination",  "Location": [1,0],  "Image":"img3.png", "Post":"welcome-to-the-forum/ginger-bread-house"}
     ],
 
   "maze": [
-    {"n":1, "spot1": "Source",       "spot2": "Traveling",    "Images":["img12-1.png","img12-2.png","img12-3.png"], "ForumURL":"welcome-to-the-forum/ginger-bread-house"},
-    {"n":2, "spot1": "Traveling",    "spot2": "Destination",  "Images":["img23-1.png","img23-2.png","img23-3.png"], "ForumURL":"welcome-to-the-forum/ginger-bread-house"},
-    {"n":3, "spot1": "Destination",  "spot2": "Source",       "Images":["img31-1.png","img31-2.png","img31-3.png"], "ForumURL":"welcome-to-the-forum/ginger-bread-house"}
+    {"n":1, "spot1": "Source",       "spot2": "Traveling",    "Images":["img12-1.png","img12-2.png","img12-3.png"], "Post":"welcome-to-the-forum/ginger-bread-house"},
+    {"n":2, "spot1": "Traveling",    "spot2": "Destination",  "Images":["img23-1.png","img23-2.png","img23-3.png"], "Post":"welcome-to-the-forum/ginger-bread-house"},
+    {"n":3, "spot1": "Destination",  "spot2": "Source",       "Images":["img31-1.png","img31-2.png","img31-3.png"], "Post":"welcome-to-the-forum/ginger-bread-house"}
     ]
 }

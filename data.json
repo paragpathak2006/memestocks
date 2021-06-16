@@ -1,4 +1,8 @@
 {
+        "Name"     : "NameSample" ,
+        "ImageURL" : "img"
+
+  
   "Title":  "Traingular Map",
 
   "ChatBox":  [
@@ -8,6 +12,7 @@
   ],
 
   "Help" : "https://www.spotmaze.com",
+  "training":"https//spotmaze.world/paragpathak2006/how-to-create-a-spotmaze",
 
   "spots":[
     {"n":1,"Id":"Source",       "Location": [0,0],  "Image":"img1.png", "Post":"welcome-to-the-forum/ginger-bread-house"},

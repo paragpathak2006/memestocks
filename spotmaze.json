@@ -21,7 +21,8 @@
 								,
 	"Powerpoint": {
 		"ImgName": "Slide",
-		"ImgType": ".PNG"
+		"ImgType": ".PNG",
+		"DummySlides":[3,4,6]
 	}
 								,
 	"Info": {

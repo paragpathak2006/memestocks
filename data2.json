@@ -19,16 +19,16 @@
 
         "info":{
                 "Maze":{
-                        1:"When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",
-                        2:"To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged", 
-                        3:"For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"
+                        "1":"When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",
+                        "2":"To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged", 
+                        "3":"For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"
                 },
 
                 "Dev Mode":{
-                1:"Turn on Dev mode to see numbering and file versions",
-                2:"Check file version before running program, at https://jsonformatter.org/",
-                3:"Check JSON file at https://jsononline.net/json-checker",
-                4:"In Dev mode, to avoid default file path, use querry (?) parameter. For eg https://spotmaze.world/USERID/?AddYourFileName.json"
+                "1":"Turn on Dev mode to see numbering and file versions",
+                "2":"Check file version before running program, at https://jsonformatter.org/",
+                "3":"Check JSON file at https://jsononline.net/json-checker",
+                "4":"In Dev mode, to avoid default file path, use querry (?) parameter. For eg https://spotmaze.world/USERID/?AddYourFileName.json"
                 }
         }
 }

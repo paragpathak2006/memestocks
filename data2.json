@@ -16,12 +16,10 @@
             ],
 
         "Powerpoint":{"ImgName":"Slide","ImgType":".PNG"},
-        "info":
-        {"moreinfo":"------------------------------------------------------------------------",
-
+        "info":{"moreinfo":"----------------------",
         "Maze":["When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",
         "To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged", 
-        "For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"]
+        "For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"],
 
         "Dev Mode":[
         "Turn on Dev mode to see numbering and file versions",

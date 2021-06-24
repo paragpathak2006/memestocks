@@ -1,28 +1,31 @@
 {
-        "Name"     : "NameSample" ,
-        "ImageURL" : "img",
+        "DeveloperMode":{"Status":"on","Version":"1.2.3 Blah-Blah"},
 
-  
-  "Title":  "Traingular Map",
+        "Visit" : "https://www.spotmaze.com",
 
-  "ChatBox":  [
-    "Traingular Map",
-    "Traingular Map",
-    "Traingular Map"
-  ],
+          "spots":[
+                {"Name":"Source",       "Location": [0,0],  "Image":"slide1.png", "Post":"welcome-to-the-forum/ginger-bread-house"},
+                {"Name":"Traveling",       "Location": [1,0],  "Image":"slide2.png", "Post":"welcome-to-the-forum/ginger-bread-house"},
+                {"Name":"Destination",       "Location": [1,1],  "Image":"slide3.png", "Post":"welcome-to-the-forum/ginger-bread-house"}
+            ],
 
-  "Help" : "https://www.spotmaze.com",
-  "training":"https//spotmaze.world/paragpathak2006/how-to-create-a-spotmaze",
+          "maze": [
+            {"S1": "Source",       "S2": "Traveling",    "Path":[[1,1],[0,1],[0,0]]},
+            {"S1": "Traveling",       "S2": "Destination",    "Path":[[1,1],[0,1],[0,0]]},
+            {"S1": "Destination",       "S2": "Source",    "Path":[[1,1],[0,1],[0,0]]}
+            ],
 
-  "spots":[
-    {"n":1,"Id":"Source",       "Location": [0,0],  "Image":"img1.png", "Post":"welcome-to-the-forum/ginger-bread-house"},
-    {"n":2,"Id":"Traveling",    "Location": [0,1],  "Image":"img2.png", "Post":"welcome-to-the-forum/ginger-bread-house"},
-    {"n":3,"Id":"Destination",  "Location": [1,0],  "Image":"img3.png", "Post":"welcome-to-the-forum/ginger-bread-house"}
-    ],
+        "Powerpoint":{"ImgName":"Slide","ImgType":".PNG"},
+        "info":{"moreinfo":"------------------------------------------------------------------------",
 
-  "maze": [
-    {"n":1, "spot1": "Source",       "spot2": "Traveling",    "Images":["img12-1.png","img12-2.png","img12-3.png"], "Post":"welcome-to-the-forum/ginger-bread-house"},
-    {"n":2, "spot1": "Traveling",    "spot2": "Destination",  "Images":["img23-1.png","img23-2.png","img23-3.png"], "Post":"welcome-to-the-forum/ginger-bread-house"},
-    {"n":3, "spot1": "Destination",  "spot2": "Source",       "Images":["img31-1.png","img31-2.png","img31-3.png"], "Post":"welcome-to-the-forum/ginger-bread-house"}
-    ]
+        "Maze":["When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",
+        "To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged", 
+        "For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"]
+
+        "Dev Mode":[
+        "Turn on Dev mode to see numbering and file versions",
+        "Check file version before running program, at https://jsonformatter.org/",
+        "Check JSON file at https://jsononline.net/json-checker",
+        "In Dev mode, to avoid default file path, use querry (?) parameter. For eg https://spotmaze.world/USERID/?AddYourFileName.json"
+        ], 
 }

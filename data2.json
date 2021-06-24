@@ -3,9 +3,9 @@
 	"DeveloperMode": {"Status": "on","Version": "1.2.3 Blah-Blah"},
 
 	"spots": [
-	        {"Name": "Source",	"Location": [0, 0],	"Image": "slide1.png",	"Link": "https://www.spotmaze.com/forum/welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "Traveling",	"Location": [1, 0],	"Image": "slide2.png",	"Link": "https://www.spotmaze.com/forum/welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "Destination",	"Location": [1, 1],	"Image": "slide3.png",	"Link": "https://www.spotmaze.com/forum/welcome-to-the-forum/ginger-bread-house"}
+	        {"Name": "Source",	"Location": [0, 0],	"Image": "slide1.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Traveling",	"Location": [1, 0],	"Image": "slide2.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Destination",	"Location": [1, 1],	"Image": "slide3.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"}
 	],
 
 	"maze": [

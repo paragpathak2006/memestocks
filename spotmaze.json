@@ -20,8 +20,8 @@
 	]
 								,
 	"Powerpoint": {
-		"Format"	: 	["Slide",".PNG"] ,
-		"DummySlides"	: 	[3,4,6]
+		"Format"		: 	["Slide",".PNG"] ,
+		"NumberOfSlides"	: 	10
 	}
 								,
 	"Info": {

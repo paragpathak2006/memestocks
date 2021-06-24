@@ -1,34 +1,36 @@
 {
-        "DeveloperMode":{"Status":"on","Version":"1.2.3 Blah-Blah"},
+	"Visit": "https://www.spotmaze.com",
+	"DeveloperMode": {"Status": "on","Version": "1.2.3 Blah-Blah"},
 
-        "Visit" : "https://www.spotmaze.com",
+	"spots": [
+	        {"Name": "Source",	"Location": [0, 0],	"Image": "slide1.png",	"Post": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Traveling",	"Location": [1, 0],	"Image": "slide2.png",	"Post": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Destination",	"Location": [1, 1],	"Image": "slide3.png",	"Post": "welcome-to-the-forum/ginger-bread-house"}
+	],
 
-          "spots":[
-                {"Name":"Source",       "Location": [0,0],  "Image":"slide1.png", "Post":"welcome-to-the-forum/ginger-bread-house"},
-                {"Name":"Traveling",       "Location": [1,0],  "Image":"slide2.png", "Post":"welcome-to-the-forum/ginger-bread-house"},
-                {"Name":"Destination",       "Location": [1,1],  "Image":"slide3.png", "Post":"welcome-to-the-forum/ginger-bread-house"}
-            ],
+	"maze": [
+	 {"S1": "Source",	"S2": "Traveling",	"Path": [[1 , 1] , [0 , 1] , [0 , 0]]},
+	 {"S1": "Traveling",	"S2": "Destination",    "Path": [[1 , 1] , [0 , 1] , [0 , 0]]},
+	 {"S1": "Destination",	"S2": "Source",		"Path": [[1 , 1] , [0 , 1] , [0 , 0]]}
+	],
 
-          "maze": [
-            {"S1": "Source",       "S2": "Traveling",    "Path":[[1,1],[0,1],[0,0]]},
-            {"S1": "Traveling",       "S2": "Destination",    "Path":[[1,1],[0,1],[0,0]]},
-            {"S1": "Destination",       "S2": "Source",    "Path":[[1,1],[0,1],[0,0]]}
-            ],
+	"Powerpoint": {
+		"ImgName": "Slide",
+		"ImgType": ".PNG"
+	},
 
-        "Powerpoint":{"ImgName":"Slide","ImgType":".PNG"},
+	"info": {
+		"Maze": {
+			"1": "When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",
+			"2": "To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged",
+			"3": "For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"
+		},
 
-        "info":{
-                "Maze":{
-                        "1":"When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",
-                        "2":"To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged", 
-                        "3":"For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"
-                },
-
-                "Dev Mode":{
-                "1":"Turn on Dev mode to see numbering and file versions",
-                "2":"Check file version before running program, at https://jsonformatter.org/",
-                "3":"Check JSON file at https://jsononline.net/json-checker",
-                "4":"In Dev mode, to avoid default file path, use querry (?) parameter. For eg https://spotmaze.world/USERID/?AddYourFileName.json"
-                }
-        }
+		"Dev Mode": {
+			"1": "Turn on Dev mode to see numbering and file versions",
+			"2": "Check file version before running program, at https://jsonformatter.org/",
+			"3": "Check JSON file at https://jsononline.net/json-checker or https://jsonlint.com/",
+			"4": "In Dev mode, to avoid default file path, use querry (?) parameter. For eg https://spotmaze.world/USERID/?AddYourFileName.json"
+		}
+	}
 }

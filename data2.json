@@ -16,7 +16,8 @@
             ],
 
         "Powerpoint":{"ImgName":"Slide","ImgType":".PNG"},
-        "info":{"moreinfo":"------------------------------------------------------------------------",
+        "info":
+        {"moreinfo":"------------------------------------------------------------------------",
 
         "Maze":["When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",
         "To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged", 
@@ -27,5 +28,6 @@
         "Check file version before running program, at https://jsonformatter.org/",
         "Check JSON file at https://jsononline.net/json-checker",
         "In Dev mode, to avoid default file path, use querry (?) parameter. For eg https://spotmaze.world/USERID/?AddYourFileName.json"
-        ], 
+        ]
+        }
 }

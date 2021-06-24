@@ -1,44 +1,46 @@
 {
 	"Visit" : "https://www.spotmaze.com"
-,
-	"DeveloperMode": {"Status": "on","Version": "1.2.3 Blah-Blah"}
-,
+							,
+	"DeveloperMode": {
+		"Status": "on",
+		"Version": "1.2.3 Blah-Blah"
+	}
+							,
 	"Spots": [
-	        {"Name": "Source",	"Location": [0, 0],	"Image": "slide1.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "Traveling",	"Location": [1, 0],	"Image": "slide2.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "Destination",	"Location": [1, 1],	"Image": "slide3.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"}
+		{"Name": "StartPoint"  ,	"Location": [0, 0],	"Image": "slide1.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Traveling1"  ,	"Location": [1, 0],	"Image": "slide2.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Traveling2"  ,	"Location": [1, 0],	"Image": "slide2.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "EndPoint"    ,	"Location": [5, 5],	"Image": "slide3.png",	"Forum": "welcome-to-the-forum/ginger-bread-house"}
 	]
-,
+							,
 	"Maze": [
-	 {"S1": "Source",	"S2": "Traveling",	"Path": [[1 , 1] , [0 , 1] , [0 , 0]]},
-	 {"S1": "Traveling",	"S2": "Destination",    "Path": [[1 , 1] , [0 , 1] , [0 , 0]]},
-	 {"S1": "Destination",	"S2": "Source",		"Path": [[1 , 1] , [0 , 1] , [0 , 0]]}
+		{"Name1": "StartPoint"   ,	"Name2": "Traveling1"  ,	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]},
+		{"Name1": "Traveling1"   ,	"Name2": "Traveling2"  ,   	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]},
+		{"Name1": "Traveling2"   ,	"Name2": "EndPoint"    ,	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]}
 	]
-,
+							,
 	"Powerpoint": {
 		"ImgName": "Slide",
 		"ImgType": ".PNG"
 	}
-,
+							,
 	"Info": {
-		
 		"URLs":{
 			"Stardard" 	:	"https://spotmaze.world/My_Github_User_ID"	,
 		        "DevMode"	:	"https://spotmaze.world/My_Github_User_ID?myFile.json"
 		 }
-	,
+								,
 		"Dev Mode": {
 			"1": "Turn on Dev mode to see numbering and file versions",
 			"2": "Check file version before running program, at https://jsonformatter.org/",
 			"3": "Check JSON file at https://jsononline.net/json-checker or https://jsonlint.com/",
 			"4": "In Dev mode, to avoid default file path, use querry (?) parameter. For eg https://spotmaze.world/USERID/?AddYourFileName.json"
 		}
-	,		
+								,		
 		"Maze": {
 			"1": "When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",
 			"2": "To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged",
 			"3": "For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"
 		}
-
 	}
 }

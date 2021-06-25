@@ -41,13 +41,13 @@
 			"3": "Validate/Edit your JSON file using any JSON editors/validors",
 			"4": "In Dev mode, to avoid default path, use querry (?) parameter to access files in other folders", 
 			"5": "For eg https://spotmaze.world/My_Github_User_ID/?MyFolder/MyFile.json"
-		}
+		},
 
 		"JSON Editors:{
 			"1": "https://jsononline.net/json-checker",
 			"2": "https://jsonlint.com/",
 			"3": "https://jsonformatter.org/"
-		},						,		
+		},		
 
 		"Maze": {
 			"1": "When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",

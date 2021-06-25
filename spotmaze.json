@@ -15,13 +15,13 @@
 		{"Name": "EndPoint"      ,	"Location": [5, 5]  	,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 
 		{"Name": "EndPoint"      ,	"Location": [5, 5]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "EndPoint"      ,	"Location": [5, 5]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "EndPoint"      ,	"Location": [5, 5]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"}
 		]
 								,
 	"Maze": [
-		{"Name1": "StartPoint"   ,	"Name2": "Traveling1"  	,	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]},
-		{"Name1": "Traveling1"   ,	"Name2": "Traveling2"  	,   	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]},
-		{"Name1": "Traveling2"   ,	"Name2": "EndPoint"    	,	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]}
+		{"Start": "StartPoint"   ,	"End": "Traveling1"  	,	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]},
+		{"Start": "Traveling1"   ,	"End": "Traveling2"  	,   	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]},
+		{"Start": "Traveling2"   ,	"End": "EndPoint"    	,	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]}
 	]
 								,
 	"Powerpoint": {

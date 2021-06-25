@@ -44,10 +44,10 @@
 		},
 
 		"JSON Editors":{
-			"Recomended1": "https://jsonlint.com/",
-			"Recomended2" : "https://csvjson.com/json_beautifier",
-			"Others1": "https://jsononline.net/json-checker",
-			"Others2": "https://jsonformatter.org/"
+			"1" : "https://csvjson.com/json_beautifier",
+			"2": "https://jsonlint.com/",
+			"3": "https://jsononline.net/json-checker",
+			"4": "https://jsonformatter.org/"
 
 		},		
 

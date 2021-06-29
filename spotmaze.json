@@ -9,19 +9,22 @@
 	"Spots": [
 		{"Name": "StartPoint"  	 ,	"Location": [0, 0]  	,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 		{"Name": "Traveling1"    ,	"Location": [1, 0]  	,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "Traveling2"    ,	"Location": [1, 0]  	,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Traveling2"    ,	"Location": [2, 0]  	,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 		
-		{"Name": "EndPoint"      ,	"Location": [5, 5]  	,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "EndPoint"      ,	"Location": [5, 5]  	,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "EndPoint1"      ,	"Location": [3, 0]  	,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "EndPoint2"      ,	"Location": [4, 0]  	,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 
-		{"Name": "EndPoint"      ,	"Location": [5, 5]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "EndPoint"      ,	"Location": [5, 5]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"}
+		{"Name": "EndPoint3"      ,	"Location": [5, 0]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "EndPoint4"      ,	"Location": [6, 0]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"}
 		]
 								,
 	"Maze": [
-		{"Start": "StartPoint"   ,	"End": "Traveling1"  	,	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]},
-		{"Start": "Traveling1"   ,	"End": "Traveling2"  	,   	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]},
-		{"Start": "Traveling2"   ,	"End": "EndPoint"    	,	"Path": [ [1 , 1] , [0 , 1] , [0 , 0] ]}
+		{"Start": "StartPoint"   ,	"End": "Traveling1"  	},
+		{"Start": "Traveling1"   ,	"End": "Traveling2"  	},
+		{"Start": "Traveling2"   ,	"End": "EndPoint1"    	}
+		{"Start": "EndPoint1"   ,	"End": "EndPoint2"  	},
+		{"Start": "EndPoint2"   ,	"End": "EndPoint3"  	},
+		{"Start": "EndPoint3"   ,	"End": "EndPoint4"    	}
 	]
 								,
 	"Powerpoint": {

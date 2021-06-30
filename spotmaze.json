@@ -14,8 +14,8 @@
 		{"Name": "EndPoint1"      ,	"Location": [5, 3]  	,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 		{"Name": "EndPoint2"      ,	"Location": [5, 7]  	,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 
-		{"Name": "EndPoint3"      ,	"Location": [-4, 7]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "EndPoint4"      ,	"Location": [-4, 0]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"}
+		{"Name": "EndPoint3"      ,	"Location": [3, 7]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "EndPoint4"      ,	"Location": [3, 0]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"}
 		]
 								,
 	"Maze": [

@@ -1,32 +1,44 @@
 {
-	"Visit" : "https://www.spotmaze.com"
-								,
+	"Visit" : "https://www.spotmaze.com",
+	
 	"DeveloperMode": {
 		"Status": "on",
 		"Version": "1.2.3 Blah-Blah"
-	}
-								,
+	},
+	
 	"Spots": [
-		{"Name": "StartPoint"  	 ,	"Location": [0, 0]  	,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "Traveling1"    ,	"Location": [1, 0]  	,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "Traveling2"    ,	"Location": [1, 3]  	,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "StartPoint"  	 ,	"Location": [0, 0]  },
+		{"Name": "Traveling1"    ,	"Location": [1, 0]  },
+		{"Name": "Traveling2"    ,	"Location": [1, 3]  },
 		
-		{"Name": "EndPoint1"      ,	"Location": [5, 3]  	,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "EndPoint2"      ,	"Location": [5, 7]  	,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "EndPoint1"      ,	"Location": [5, 3]  },
+		{"Name": "EndPoint2"      ,	"Location": [5, 7]  },
 
-		{"Name": "EndPoint3"      ,	"Location": [3, 7]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-		{"Name": "EndPoint4"      ,	"Location": [3, 0]  	,	"Image":       0      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"}
-		]
-								,
+		{"Name": "EndPoint3"      ,	"Location": [3, 7]  },
+		{"Name": "EndPoint4"      ,	"Location": [3, 0]  }
+		],
+	
 	"Maze": [
-		{"Start": "StartPoint"   ,	"End": "Traveling1"  	},
-		{"Start": "Traveling1"   ,	"End": "Traveling2"  	},
-		{"Start": "Traveling2"   ,	"End": "EndPoint1"    	}
-		{"Start": "EndPoint1"   ,	"End": "EndPoint2"  	},
-		{"Start": "EndPoint2"   ,	"End": "EndPoint3"  	},
-		{"Start": "EndPoint3"   ,	"End": "EndPoint4"    	}
-	]
-								,
+		{"Name": "Optional-1"  	,      "Start": "StartPoint"   ,	"End": "Traveling1"  	},
+		{"Name": "Optional-2"  	,      "Start": "Traveling1"   ,	"End": "Traveling2"  	},
+		{"Name": "Optional-3"  	,      "Start": "Traveling2"   ,	"End": "EndPoint1"    	},
+		{"Name": "Optional-4"  	,      "Start": "EndPoint1"   ,		"End": "EndPoint2"  	},
+		{"Name": "Optional-5"  	,      "Start": "EndPoint2"   ,		"End": "EndPoint3"  	},
+		{"Name": "Optional-6"  	,      "Start": "EndPoint3"   ,		"End": "EndPoint4"    	}
+	],
+
+	"Spot-Attributes":[
+		{"Name": "StartPoint"  	 ,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Traveling1"    ,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Traveling2"    ,	"Image" : "Slide"     ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		
+		{"Name": "EndPoint1"      ,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "EndPoint2"      ,	"Image": "MyImg.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+
+		{"Name": "EndPoint3"      ,	"Image":       "0"      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "EndPoint4"      ,	"Image":       "0"      ,	"Forum": "welcome-to-the-forum/ginger-bread-house"}
+		],
+
 	"Powerpoint": {
 		"Format"		: 	["Slide",".PNG"] ,
 		"NumberOfSlides"	: 	3

@@ -19,12 +19,12 @@
 		],
 	
 	"Maze": [
-		{"Name": "Optional-1"  	,      "Start": "StartPoint"   ,	"End": "Traveling1"  	},
-		{"Name": "Optional-2"  	,      "Start": "Traveling1"   ,	"End": "Traveling2"  	},
-		{"Name": "Optional-3"  	,      "Start": "Traveling2"   ,	"End": "EndPoint1"    	},
-		{"Name": "Optional-4"  	,      "Start": "EndPoint1"   ,		"End": "EndPoint2"  	},
-		{"Name": "Optional-5"  	,      "Start": "EndPoint2"   ,		"End": "EndPoint3"  	},
-		{"Name": "Optional-6"  	,      "Start": "EndPoint3"   ,		"End": "EndPoint4"    	}
+		{ "Start": "StartPoint"   ,	"End": "Traveling1"  	},
+		{ "Start": "Traveling1"   ,	"End": "Traveling2"  	},
+		{ "Start": "Traveling2"   ,	"End": "EndPoint1"    	},
+		{ "Start": "EndPoint1"   ,	"End": "EndPoint2"  	},
+		{ "Start": "EndPoint2"   ,	"End": "EndPoint3"  	},
+		{ "Start": "EndPoint3"   ,	"End": "EndPoint4"    	}
 	],
 
 	"Spot-Attributes":[

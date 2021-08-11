@@ -30,11 +30,6 @@
 		{ "Start": "Juncture"   ,	"End": "EndPoint4"    	}
 	],
 	
-	"Powerpoint": {
-		"Format"		: 	["Slide",".PNG"] ,
-		"NumberOfSlides"	: 	3
-	}
-								,
 	"Info": {
 		"URLs":{
 			"Stardard" 	:	"https://spotmaze.world/My_Github_User_ID"	,

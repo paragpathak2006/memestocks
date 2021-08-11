@@ -25,7 +25,7 @@
 		{ "Start": "Traveling1"   ,	"End": "Traveling2"  	},
 		{ "Start": "Traveling2"   ,	"End": "EndPoint1"    	},
 		{ "Start": "EndPoint1"   ,	"End": "EndPoint2"   	, 
-		 "Path":[[4,5],[6,5],[6,2],[7,2]]			},
+		  "Path" :	[[4,5],[6,5],[6,2],[7,2]]		},
 		{ "Start": "EndPoint2"   ,	"End": "Juncture"  	},
 		{ "Start": "Juncture"   ,	"End": "EndPoint4"    	}
 	],

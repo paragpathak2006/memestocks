@@ -3,8 +3,8 @@
 	
 	"Developer Mode": {
 		"Status": "on",
-		"File Version": "Blah-Blah - 1.2.3"
-		"Syntax Version":"1.0",
+		"File": "Blah-Blah - 1.2.3",
+		"Syntax":"1.0",
 	},
 
 	"Base Plate": {	"Xmin":-2,"Xmax":8, "Ymin":-2,"Ymax":2  },

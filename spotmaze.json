@@ -9,10 +9,10 @@
 	},
 
 	"Base Plate": {	
-		"Xmin":-2	,
-		"Xmax": 8	, 	
-		"Ymin":-2	,	
-		"Ymax": 2  	
+		"Xmin"	:	-2	,
+		"Xmax"	:	 8	, 	
+		"Ymin"	:	-2	,	
+		"Ymax"	: 	 2  	
 	},
 
 	"Spots": [

@@ -8,7 +8,12 @@
 		"Syntax"	:	"1.0"
 	},
 
-	"Base Plate": {	"Xmin":-2,"Xmax":8, "Ymin":-2,"Ymax":2  },
+	"Base Plate": {	
+		"Xmin":-2	,
+		"Xmax": 8	, 	
+		"Ymin":-2	,	
+		"Ymax": 2  	
+	},
 
 	"Spots": [
 		{"Name": "StartPoint"  	 ,	"Location": [0, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},

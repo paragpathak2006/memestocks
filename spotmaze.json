@@ -3,10 +3,10 @@
 	"Your WebSite"	: "https://spotmaze.world/__USERNAME__",
 	
 	"Developer Mode": {
-		"Status"	: 	"on",
-		"File"		: 	"Blah-Blah - 1.2.3",
-		"Syntax"	:	"1.0"
-		"Web Address"	: 	"/?spotmaze.json",
+		"Status"	: 	"on"			,
+		"File"		: 	"Blah-Blah - 1.2.3"	,
+		"Syntax"	:	"1.0"			,
+		"Add Querry"	: 	"/?spotmaze.json"	
 	},
 
 	"Base Plate": {	

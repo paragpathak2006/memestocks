@@ -1,6 +1,6 @@
 {
 	"Visit" 	: "https://www.spotmaze.com",
-	"Your WebSite"	: "https://spotmaze.world/__USERNAME__"
+	"Your WebSite"	: "https://spotmaze.world/__USERNAME__",
 	
 	"Developer Mode": {
 		"Status"	: 	"on",

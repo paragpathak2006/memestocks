@@ -18,6 +18,17 @@
 	"Spots": [
 		{"Name": "StartPoint"  	 ,	"Location": [0, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 		{"Name": "Traveling1"    ,	"Location": [1, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		],
+	
+	"Maze": [
+		{ "Start": "StartPoint"   ,	"End": "Traveling1"  	,
+		"Path":[[0,0],[0,1],[1,1],[1,0]]			},
+
+	],
+
+	"Spots__": [
+		{"Name": "StartPoint"  	 ,	"Location": [0, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+		{"Name": "Traveling1"    ,	"Location": [1, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 		{"Name": "Traveling2"    ,	"Location": [2, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 		
 		{"Name": "EndPoint1"     ,	"Location": [3, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
@@ -27,7 +38,7 @@
 		{"Name": "EndPoint4"     ,	"Location": [6, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  , 	"Forum": "welcome-to-the-forum/ginger-bread-house"}
 		],
 	
-	"Maze": [
+	"Maze__": [
 		{ "Start": "StartPoint"   ,	"End": "Traveling1"  	},
 		{ "Start": "Traveling1"   ,	"End": "Traveling2"  	},
 		{ "Start": "Traveling2"   ,	"End": "EndPoint1"    	},

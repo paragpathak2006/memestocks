@@ -22,8 +22,7 @@
 		],
 	
 	"Maze": [
-		{ "Start": "StartPoint"   ,	"End": "Traveling1"  	,
-		"Path":[[0,0],[0,1],[1,1],[1,0]]			},
+		{ "Start": "StartPoint"   ,	"End": "Traveling1"  	},
 
 	],
 

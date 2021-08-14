@@ -4,7 +4,8 @@
 	
 	"Developer Mode": {
 		"Status"	: 	"on"			,
-		"File"		: 	"Blah-Blah - 1.2.3"	,
+		"File Name"	: 	"My-World"		,
+		"Version"	: 	"1.2.3"			,
 		"Syntax"	:	"1.0"			,
 	},
 

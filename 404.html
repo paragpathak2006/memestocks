@@ -92,11 +92,11 @@
 	<script type="text/javascript" src="tips.js"></script>-->
 
 	<script>
-	  URL1 = window.location.pathname;  	
+	  url = window.location.pathname;  	
 	  Query = window.location.search;  	
 
-	  LastSlash = URL1.lastIndexOf('/');
-	  Username = URL1.substring(LastSlash+1).replace(/\?|%3f/gi, '');
+	  LastSlash = url.lastIndexOf('/');
+	  Username = url.substring(LastSlash+1).replace(/\?|%3f/gi, '');
 	  Filename = Query.replace(/\?|%3f/gi, '');
 	    if (Filename == null || Filename == undefined || Filename.length == 0) { Params = "user=" + Username;} 
 	    else {Params = "user=" + Username + "&file=" + Filename;}

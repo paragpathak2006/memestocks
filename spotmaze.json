@@ -5,8 +5,8 @@
 	"Section1"	:"-------Developer Info------------------------------------------------------",
 	
 	"Developer Mode": {
-		"Status"	: 	"on"			,
-		"File Name"	: 	"My World"		,
+		"Status"	: 	"On"			,
+		"File"		: 	"My World"		,
 		"Version"	: 	"1.2.3"			,
 		"Syntax"	:	"1.0"			,
 	},

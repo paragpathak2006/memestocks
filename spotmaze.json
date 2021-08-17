@@ -1,6 +1,6 @@
 {
-	"Visit" 	: "https://www.spotmaze.com",
-	"Your WebSite"	: "https://spotmaze.world/__USERNAME__",
+	"Visit" 	: "https://www.spotmaze.com"		,
+	"Your WebSite"	: "https://spotmaze.world/__USERNAME__"	,
 
 	"Section1"	:"-------Developer Mode------------------------------------------------------",
 	
@@ -17,7 +17,7 @@
 		"Xmin"	:	-2	,
 		"Xmax"	:	 8	, 	
 		"Ymin"	:	-2	,	
-		"Ymax"	: 	 2  	
+		"Ymax"	: 	 2  	,
 	},
 
 	"Spots": [
@@ -41,16 +41,16 @@
 				"Xmin"	:	-2	,
 				"Xmax"	:	 10	, 	
 				"Ymin"	:	-2	,	
-				"Ymax"	: 	 2  	
+				"Ymax"	: 	 2  	,
 			},
+
 			"Spots": [
-				{"Name": "StartPoint"  	 ,	"Location": [0, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-				{"Name": "Traveling1"    ,	"Location": [1, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
-				],
+				{"Name": "StartPoint"  	,	"Location": [0, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  	,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+				{"Name": "Traveling1"   ,	"Location": [1, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png" 	,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+			],
 
 			"Maze": [
-				{ "Start": "StartPoint"   ,	"End": "Traveling1"  	,
-				"Path":[[0,0],[0,1],[1,1],[1,0]]			},
+				{ "Start": "StartPoint" ,	"End": "Traveling1"  	,	"Path":[[0,0],[0,1],[1,1],[1,0]]	       	,			},
 			],
 		},
 
@@ -61,10 +61,11 @@
 				"Xmin"	:	-1	,
 				"Xmax"	:	10	, 	
 				"Ymin"	:	-1	,	
-				"Ymax"	: 	10  	
+				"Ymax"	: 	10  	,
 			},
+
 			"Spots": [
-				{"Name": "StartPoint"  	 ,	"Location": [0, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
+				{"Name": "StartPoint" 	 ,	"Location": [0, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 				{"Name": "Traveling1"    ,	"Location": [1, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 				{"Name": "Traveling2"    ,	"Location": [2, 0]  , "Text":"Spotmaze"   ,	"Image" : "Slide2-resize.png"  ,	"Forum": "welcome-to-the-forum/ginger-bread-house"},
 
@@ -81,7 +82,7 @@
 				{ "Start": "Traveling2"   ,	"End": "EndPoint1"    	},
 				{ "Start": "EndPoint1"    ,	"End": "EndPoint2"   	},
 				{ "Start": "EndPoint2"    ,	"End": "Juncture"  	},
-				{ "Start": "Juncture"     ,	"End": "EndPoint4"    	}
+				{ "Start": "Juncture"     ,	"End": "EndPoint4"    	},
 			],
 		},
 	},
@@ -90,30 +91,29 @@
 
 	"Info": {
 		"URLs":{
-			"Stardard" 	:	"https://spotmaze.world/My_Github_User_ID"	,
-		        "DevMode"	:	"https://spotmaze.world/My_Github_User_ID?MyFile.json"
-		 }
-								,
+			"Stardard" 	:	"https://spotmaze.world/My_Github_User_ID"		,
+		        "DevMode"	:	"https://spotmaze.world/My_Github_User_ID?MyFile.json"	,
+		 },
+		
 		"Dev Mode": {
-			"1": "Turn on Dev mode to see numbering and file versions",
-			"2": "Check file version before running program, at https://jsonformatter.org/",
-			"3": "Validate/Edit your JSON file using any JSON editors/validors",
-			"4": "In Dev mode, to avoid default path, use querry (?) parameter to access files in other folders", 
-			"5": "For eg https://spotmaze.world/My_Github_User_ID/?MyFolder/MyFile.json"
+			"1": "Turn on Dev mode to see numbering and file versions"						,
+			"2": "Check file version before running program, at https://jsonformatter.org/"				,
+			"3": "Validate/Edit your JSON file using any JSON editors/validors"					,
+			"4": "In Dev mode, to avoid default path, use querry (?) parameter to access files in other folders"	, 
+			"5": "For eg https://spotmaze.world/My_Github_User_ID/?MyFolder/MyFile.json"				,
 		},
 
 		"JSON Editors":{
-			"1" : "https://csvjson.com/json_beautifier",
-			"2": "https://jsonlint.com/",
-			"3": "https://jsononline.net/json-checker",
-			"4": "https://jsonformatter.org/"
-
+			"1" : "https://csvjson.com/json_beautifier"	,
+			"2": "https://jsonlint.com/"			,
+			"3": "https://jsononline.net/json-checker"	,
+			"4": "https://jsonformatter.org/"		,
 		},		
 
 		"Maze": {
-			"1": "When Explicit Path is specified Spotmaze ignores the S1 and S2 tags",
-			"2": "To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged",
-			"3": "For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"
-		}
+			"1": "When Explicit Path is specified Spotmaze ignores the S1 and S2 tags"					,
+			"2": "To ensure valid path, exactly one co-ordinate of two consective path points needs to remain unchanged"	,
+			"3": "For eg [1,2]->[1,5] is valid, but [1,6]->[4,1] is invalid"						,
+		},
 	}
 }

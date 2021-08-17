@@ -3,6 +3,7 @@
 	"Your WebSite"	: "https://spotmaze.world/__USERNAME__",
 
 	"Section1"	:"-------Developer Info------------------------------------------------------",
+	
 	"Developer Mode": {
 		"Status"	: 	"on"			,
 		"File Name"	: 	"My-World"		,
@@ -10,7 +11,7 @@
 		"Syntax"	:	"1.0"			,
 	},
 
-	"Section2"	:"-----------Geometry------------------------------------------------------",
+	"Section2"	:"-----------Spotmaze------------------------------------------------------",
 
 	"Base Plate": {	
 		"Xmin"	:	-2	,
@@ -32,6 +33,7 @@
 
 	
 	"Section3"	:"-----------Tutorials------------------------------------------------------",
+	
 	"Get Started":{
 		"Sample 1":{
 			"Base Plate": {	

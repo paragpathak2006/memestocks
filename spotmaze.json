@@ -6,8 +6,8 @@
 	
 	"Developer Mode": {
 		"Status"	: 	"on"			,
-		"File Name"	: 	"My-World"		,
-		"Version"	: 	"4.5.6"			,
+		"File Name"	: 	"My World"		,
+		"Version"	: 	"1.2.3"			,
 		"Syntax"	:	"1.0"			,
 	},
 
@@ -29,6 +29,8 @@
 	"Maze": [
 		{ "Start": "StartPoint"   ,	"End": "Traveling1"  	,
 		"Path":[[0,0],[0,1],[1,1],[1,0]]			},
+		{ "Start": "Traveling1"   ,	"End": "Traveling2"  	}
+		
 	],
 
 	

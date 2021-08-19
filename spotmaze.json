@@ -2,16 +2,16 @@
 	"Visit" 	: "https://www.spotmaze.com"		,
 	"Your WebSite"	: "https://spotmaze.world/__USERNAME__"	,
 
-	"Section1"	:"-------Developer Mode------------------------------------------------------",
+	"Section [1]"	:"_______________________Developer Section_____________________________(Section Highly Recommended To Add)",
 	
 	"Developer Mode": {
-		"Status"	: 	"On"			,
-		"File"		: 	"My World"		,
-		"Version"	: 	"1.2.3"			,
-		"Syntax"	:	"1.0"			,
+		"Status"	: 	"On"			,	"Info1":	"Turns on the Developer Interface"	,
+		"File"		: 	"My World"		,	"Info2":	"Name of the file"			,
+		"Version"	: 	"1.2.3"			,	"Info3":	"File Version for checking FIle"	,
+		"Syntax"	:	"1.0"			,	"Info4":	"File Syntax Version"			,
 	},
 
-	"Section2"	:"-----------Spotmaze------------------------------------------------------",
+	"Section [2]"	:"_______________________Spotmaze Description__________________________(Section Required)",
 
 	"Base Plate": {	
 		"Xmin"	:	-2	,
@@ -33,7 +33,7 @@
 	],
 
 	
-	"Section3"	:"-----------Tutorials------------------------------------------------------",
+	"Section [3]"	:"____________________________Tutorials________________________________(Section Not Required)",
 	
 	"Get Started":{
 		"Sample 1":{
@@ -54,7 +54,7 @@
 			],
 		},
 
-		"Next"	:"-----------------------------------------------------------------------",
+		"Next Sample"	:"----------------------------------",
 		
 		"Sample 2":{
 			"Base Plate": {	
@@ -87,7 +87,7 @@
 		},
 	},
 	
-	"Section4"	:"-----------Information------------------------------------------------------",
+	"Section [4]"	:"___________________________General Information_______________________________(Section Not Required)",
 
 	"Info": {
 		"URLs":{

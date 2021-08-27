@@ -6,8 +6,8 @@
 	
 	"Developer Mode": {
 		"Status"	: 	"On"			,	"Info1":	"Turns on the Developer Interface"	,
-		"File"		: 	"My World"		,	"Info2":	"Name of the file"			,
-		"Version"	: 	"1.2.3"			,	"Info3":	"File Version for checking FIle"	,
+		"File"		: 	"P World"		,	"Info2":	"Name of the file"			,
+		"Version"	: 	"2.4.6"			,	"Info3":	"File Version for checking FIle"	,
 		"Syntax"	:	"1.0"			,	"Info4":	"File Syntax Version"			,
 	},
 

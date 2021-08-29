@@ -6,8 +6,8 @@
 	
 	"Developer Mode": {
 		"Status"	: 	"On"			,	"Info1":	"Turns on the Developer Interface"	,
-		"File Name"	: 	"pp2006"		,	"Info2":	"Name of the file"			,
-		"Version"	: 	"2.2.2"			,	"Info3":	"File Version for checking FIle"	,
+		"File Name"	: 	"pp2006"		,	"Cache Check":	"Name of the file"			,
+		"Version"	: 	"2.2.2"			,	"Cache Check":	"File Version for checking File Cache"	,
 		"Syntax"	:	"1.0"			,	"Info4":	"File Syntax Version"			,
 	},
 

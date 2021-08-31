@@ -14,10 +14,10 @@
 	"Section [2]"	:"_______________________Spotmaze Description__________________________(Section Required)",
 
 	"Base Plate": {	
-		"Xmin"	:	-2	,
-		"Xmax"	:	 8	, 	
-		"Ymin"	:	-2	,	
-		"Ymax"	: 	 2  	,
+			"Xmin"	:	-10	,
+			"Xmax"	:	 10	, 	
+			"Ymin"	:	-10	,	
+			"Ymax"	: 	 10  	,
 	},
 
 	"Spots": [
@@ -38,10 +38,10 @@
 	"Get Started":{
 		"Sample 1":{
 			"Base Plate": {	
-				"Xmin"	:	-2	,
+				"Xmin"	:	-10	,
 				"Xmax"	:	 10	, 	
-				"Ymin"	:	-2	,	
-				"Ymax"	: 	 2  	,
+				"Ymin"	:	-10	,	
+				"Ymax"	: 	 10  	,
 			},
 
 			"Spots": [
@@ -58,10 +58,10 @@
 		
 		"Sample 2":{
 			"Base Plate": {	
-				"Xmin"	:	-1	,
-				"Xmax"	:	10	, 	
-				"Ymin"	:	-1	,	
-				"Ymax"	: 	10  	,
+				"Xmin"	:	-10	,
+				"Xmax"	:	 10	, 	
+				"Ymin"	:	-10	,	
+				"Ymax"	: 	 10  	,
 			},
 
 			"Spots": [

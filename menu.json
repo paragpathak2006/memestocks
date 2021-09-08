@@ -1,31 +1,31 @@
-"Menu": {
-    "Instructions": {
+{
 
-        "Explore"       :   "Hi There!",
-        "Build"         :   {
-            "Option"        :  ["B1","B2","B3","B4"],
-            "B1"            :   "Hi There!",
-            "B2"            :   "Hi There!",
-            "B3"            :   "Hi There!",
-            "B4"            :   "Hi There!",
-        },
-        "Launch"        :   {
-            "Option"        :  ["L1","L2","L3","Customize"],
-            "L1"            :   "Hi There!",
-            "L2"            :   "Hi There!",
-            "L3"            :   "Hi There!",
+    "Menu": {
+        "Instructions": {
 
-            "Customize"     :   {
-                "Option"        :  ["C1","C2","C3","C4"],
-                "C1"            :   "Hi There!",
-                "C2"            :   "Hi There!",
-                "C3"            :   "Hi There!",
-                "C4"            :   "Hi There!",
+            "Explore"       :   "Hi There!",
+            "Build"         :   {
+                "Option"        :  ["B1","B2","B3","B4"],
+                "B1"            :   "Hi There!",
+                "B2"            :   "Hi There!",
+                "B3"            :   "Hi There!",
+                "B4"            :   "Hi There!",
             },
+            "Launch"        :   {
+                "Option"        :  ["L1","L2","L3","Customize"],
+                "L1"            :   "Hi There!",
+                "L2"            :   "Hi There!",
+                "L3"            :   "Hi There!",
 
+                "Customize"     :   {
+                    "Option"        :  ["C1","C2","C3","C4"],
+                    "C1"            :   "Hi There!",
+                    "C2"            :   "Hi There!",
+                    "C3"            :   "Hi There!",
+                    "C4"            :   "Hi There!",
+                },
+
+            },
         },
-
-
     },
-  },
 },

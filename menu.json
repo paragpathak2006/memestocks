@@ -3,7 +3,7 @@
         "About":"Spotmaze is a virtual world creation platform that enables you to create and customize your own personalized virtual worlds.<size=13>\n</size><size=15><b><color=green>How it works?</color></b></size>You first create a grid of connected locations and pathways. These are meant to represent any topics that are closely related. Each location can be then be linked to a forum, where you can recieve reponses from your community. You can then share this world using a simple URL.",
             
         "Instructions":{
-            "Explore":"Hi There!",
+            "Explore":"Explore your world looking for locations that interest you. Once you find one, press \"Enter\" to enter the forum at that location. Entering a forum allows you to give your response on the topic that is being discussed. You would need to <Style=\"L\"><link=\"https://www.spotmaze.com\">Login</link></Style> for participating in the forums.",
             "Build":{
                 "Option":[
                     "B1",

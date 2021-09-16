@@ -34,6 +34,5 @@
     "<style=\"H3\">Developer Mode</style>\nYou can use the Developer Mode to keep track of the locations and content. To turn on the mode, go to the section \"Developer Mode\" in your JSON file and change value of the key \"Status\" to \"On\". Run in Developer mode to check your location numbers.\n<style=\"H3\">File & Version check</style>\nYou also can use file and version fields to check if the correct file is being uploaded into you window. If the file and version numbers are not updated, just change the browser or wait for some time.",
     "<style=\"H3\">Some common pitfalls</style>\nMake the names of spots distinct and so that they can be are uniquely identified. Do not change the names of the keys, otherwise the world will not be visible. Also capitalize each key name. Make sure to connect the locations with valid pathways.\nSome updates might not appear immediately and you might need to wait/refresh or change file name/browser to see the updates.",
     "<style=\"H3\">Browsers Caching</style>\nMany browsers will cache (store) your JSON source file and hence will not update the world when it is updated. To see an  updated world, you need to temporarily <b>rename</b> your JSON source file to something else. \nFor eg \"my-file.json\". To access this file you must to use the link <style=\"L\"><link=\"https://spotmaze.world/spotmaze?my-file.json\">https://spotmaze.world/ MY_USERNAME?my-file.json</style>. Do this every time you want to see an update."
-    ],
-
+    ]
 }

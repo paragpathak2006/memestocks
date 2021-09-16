@@ -1,45 +1,29 @@
 {
-    "Menu":{
-        "About":"Spotmaze is a virtual world creation platform that enables you to create and customize your own personalized virtual worlds.<size=13>\n</size><size=15><b><color=green>How it works?</color></b></size>You first create a grid of connected locations and pathways. These are meant to represent any topics that are closely related. Each location can be then be linked to a forum, where you can recieve reponses from your community. You can then share this world using a simple URL.",
-            
-        "Instructions":{
-            "Explore":"Explore your world looking for locations that interest you. Once you find one, press \"Enter\" to enter the forum at that location. Entering a forum allows you to give your response on the topic that is being discussed. You would need to <Style=\"L\"><link=\"https://www.spotmaze.com\">Login</link></Style> for participating in the forums.",
-            "Build":{
-                "Option":[
-                    "B1",
-                    "B2",
-                    "B3",
-                    "B4"
-                ],
-                "B1":"Hi There!",
-                "B2":"Hi There!",
-                "B3":"Hi There!",
-                "B4":"Hi There!"
-            },
-            "Launch":{
-                "Option":[
-                    "L1",
-                    "L2",
-                    "L3",
-                    "Customize"
-                ],
-                "L1":"Hi There!",
-                "L2":"Hi There!",
-                "L3":"Hi There!",
+    "_About_":"----------------------------------------------------------",
+    "A1":"Spotmaze is a virtual world creation platform that enables you to build and customize your own personalized virtual worlds.\n<size=13>\n</size>\n<size=15><b><color=green>How it works?</color></b></size>\nYou first create a grid of connected locations and pathways. These are meant to represent any topics that are closely related.",
+    "A2":"Each location can be then be linked to a forum, where you can receive responses from your community. You can then share this world using a simple URL.",
 
-                "Customize":{
-                    "Option":[
-                        "C1",
-                        "C2",
-                        "C3",
-                        "C4"
-                    ],
-                    "C1":"Hi There!",
-                    "C2":"Hi There!",
-                    "C3":"Hi There!",
-                    "C4":"Hi There!"
-                }
-            }
-        }
-    }
+    "_Explore_":"----------------------------------------------------------",
+    "E1":"Explore your world looking for locations that interest you. Once you find one, press \"Enter\" to enter the forum at that location. Entering a forum allows you to give your response on the topic that is being discussed. You would need to <Style=\"L\"><link=\"https://www.spotmaze.com\">Login</link></Style> for participating in the forums.",
+    
+    "_Build_":"---------------------------------------------",
+    "B1":"- To build your world, you have to decide on what is the theme of your world. Assume that your giving someone a tour of your topics.\n- Visualize how they would like to see these connected through locations.\n- Outline the connections in your storylines and topics and make these into a map.",
+    "B2":"<style=\"H3\">Create Document</style>\n- You can write these down in a document editor.\n- It is recommended to classify your information using different heading levels 1,2,3... in the order of details.\n- This will make it easier on the player to understand your world and for you to convert this document outline into a virtual world representation.",
+    "B3":"<style=\"H3\">Add Images</style>\n- You can add images to the locations.\n- The aspect ratio of the images should be 4:5 (width:height)."
+    "B4":"<style=\"H3\">Create a Map</style>\n- Create a 2D (X,Y) grid in the document (with X-axis as horizontal) and give approximate locations to your topics.\n- The player will start at (0,0) facing the horizontal +X direction in your document.\n- Connect these locations with lines that will form an appoximate map of the world.",
+
+    "_Launch_":"---------------------------------------------",
+    "L1":"<style=\"H3\">Launch your world</style>\nIn this section you would learn how to create and launch a world into a web-browser. Click on the individuals tabs to go through the steps.",
+    "L2":"<style=\"H3\">Login</style>\nLogin to your <style=\"L\"><link=\"https://www.spotmaze.com\">account</link></style> using your email address. This will allow you to gain access to the forum feature.",
+    "L3":"<style=\"H3\">Create a Username</style>\n- Pick a username, something that represents who you are or what you want to tell.\n- Register an account on <style=\"L\"><link=\"https://github.com/\">GitHub</link></style> with this same username.\n- Spotmaze uses your GitHub account as a inputs and therefore requires that these usernames are identical.",
+    "L4":"<style=\"H3\">Create a repository</style>\nCreate your first repository on <style=\"L\"><link=\"https://github.com\">GitHub</link></style>. Rename this repository name as \"spotmaze\". Repository name must exactly match and capital or other variations will not work.\n\nSee sample <style=\"L\"><link=\"https://github.com/spotmaze/spotmaze\">Repository</link></style> for details.",
+    "L5":"<style=\"H3\">JSON File</style> :- Create your own text file and copy full content from spotmaze repository file <style=\"L\"><link=\"https://github.com/spotmaze/spotmaze/blob/main/spotmaze.json\">spotmaze.json</link></style> directly into your file. Rename your file as \"spotmaze.json\". Upload this file to your own personal spotmaze repository on your GitHub account. You can validate your JSON using a <Style=\"L\"><link=\"https://jsononline.net/json-checker\">JSON Validator</link></Style>.\n<style=\"H3\">Images</style> :- Upload images to this same repository.\n<style=\"H3\">Fork</style> :- Advanced users can also directly fork the spotmaze repository into their own project.",
+    "L6":"<style=\"H3\">Run</style>\n- To run your web project  use your link <style=\"L\"><link=\"https://spotmaze.world/spotmaze\">https://spotmaze.world/MY_USERNAME</link></style>.\n- This username should match the one you used on GitHub.",
+
+    "_Customize_":"---------------------------------------------",
+    "C1":"<style=\"H3\">Customize your JSON source file</style>\nYou can customize your world by editing the appropriate fields in your \"spotmaze.json\" file located in your project repository. A JSON source file consists of key value pairs that are arranged in a tree-like structure.  Some values are arrays \"[]\" nested in other keys. Commas are required after every element. Read online for further details about <style=\"L\"><link=\"https://en.wikipedia.org/wiki/JSON\">JSON</link></style>.",
+    "C2":"You can edit the individual entries such as locations, text etc... to see changes in the world.\n<style=\"H3\">Locations and pathways</style>\nYou can add your own locations and pathways by adding more elements to \"Spots\" and \"Maze\" arrays in your soruce file. You can also change fields such such as text & images.\n<style=\"H3\">Forums</style>\nTo link your world to a Forum, add only the name of your forum (Do not add the full URL).",
+    "C3":"<style=\"H3\">Developer Mode</style>\nYou can use the Developer Mode to keep track of the locations and content. To turn on the mode, go to the section \"Developer Mode\" in your JSON file and change value of the key \"Status\" to \"On\". Run in Developer mode to check your location numbers.\n<style=\"H3\">File & Version check</style>\nYou also can use file and version fields to check if the correct file is being uploaded into you window. If the file and version numbers are not updated, just change the browser or wait for some time.",
+    "C4":"<style=\"H3\">Some common pitfalls</style>\nMake the names of spots distinct and so that they can be are uniquely identified. Do not change the names of the keys, otherwise the world will not be visible. Also capitalize each key name. Make sure to connect the locations with valid pathways.\nSome updates might not appear immediately and you might need to wait/refresh or change file name/browser to see the updates.",
+    "C5":"<style=\"H3\">Browsers Caching</style>\nMany browsers will cache (store) your JSON source file and hence will not update the world when it is updated. To see an  updated world, you need to temporarily <b>rename</b> your JSON source file to something else. \nFor eg \"my-file.json\". To access this file you must to use the link <style=\"L\"><link=\"https://spotmaze.world/spotmaze?my-file.json\">https://spotmaze.world/ MY_USERNAME?my-file.json</style>. Do this every time you want to see an update."
 }

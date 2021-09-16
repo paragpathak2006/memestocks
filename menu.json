@@ -9,7 +9,7 @@
     "_Build_":"---------------------------------------------",
     "B1":"- To build your world, you have to decide on what is the theme of your world. Assume that your giving someone a tour of your topics.\n- Visualize how they would like to see these connected through locations.\n- Outline the connections in your storylines and topics and make these into a map.",
     "B2":"<style=\"H3\">Create Document</style>\n- You can write these down in a document editor.\n- It is recommended to classify your information using different heading levels 1,2,3... in the order of details.\n- This will make it easier on the player to understand your world and for you to convert this document outline into a virtual world representation.",
-    "B3":"<style=\"H3\">Add Images</style>\n- You can add images to the locations.\n- The aspect ratio of the images should be 4:5 (width:height)."
+    "B3":"<style=\"H3\">Add Images</style>\n- You can add images to the locations.\n- The aspect ratio of the images should be 4:5 (width:height).",
     "B4":"<style=\"H3\">Create a Map</style>\n- Create a 2D (X,Y) grid in the document (with X-axis as horizontal) and give approximate locations to your topics.\n- The player will start at (0,0) facing the horizontal +X direction in your document.\n- Connect these locations with lines that will form an appoximate map of the world.",
 
     "_Launch_":"---------------------------------------------",

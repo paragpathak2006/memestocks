@@ -1,5 +1,6 @@
 {
     "_1_":"----------------------------------------------------------",
+    "isActive":"false",
     "About" :   [
     "Spotmaze is a virtual world creation platform that enables you to build and customize your own personalized virtual worlds.<size=13>\n</size>\n<size=15><b><color=green>How it works?</color></b></size>\nYou first create a grid of connected locations and pathways. These are meant to represent any topics that are closely related.",
     "Each location can be then be linked to a forum, where you can receive responses from your community. You can then share this world using a simple URL."

@@ -19,7 +19,7 @@ body, html {
 	border: 0px;
 	top: 0px;
 	left: 0px;
-	height: 4%;
+	height: 40px;
 	margin: 0;
 	padding: 0;
 	aspect-ratio: 1;
@@ -32,6 +32,6 @@ body, html {
 	top: 0px; 
 	left: 0px;
 	width: 100%; 
-	/*height: calc(100%-50px);*/
+	height: calc(100% - 50px);
 	bottom: 50px;
 }

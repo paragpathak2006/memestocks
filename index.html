@@ -81,12 +81,24 @@
 		bottom: 0;
 		top: 0px;
 	}
-	button 
+	button1 
 	{
 		background-color: #181a19;
 		text-align: justify;
+		width: 38px; 
+		height: 38px; 
+
 	} 
-	#unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('tabling/ui/TemplateData/fullscreen-button.png') no-repeat center }
+	#unity-fullscreen-button 
+	{ 
+		float: right; 
+		border: 0px;
+		buttom: 0px; 
+		left: 0px;
+		width: 5%; 
+		height: 5%;
+		background: url('tabling/ui/TemplateData/fullscreen-button.png') no-repeat center
+	}
 	</style>
 
 </head>
@@ -113,7 +125,7 @@ Spotmaze is a virtual world for hosting forurms at virtual locations\n\-->
 url = window.location.search.replace(/\?|%3f/gi, '');
 document.write('<iframe id="embededGame" src = "https://i.simmer.io/@spotmaze/hangout-spots?' + url + '"\style = "border: 0px; top: 0px; left: 0px; width: 100%; height: 95%;"></iframe>');
 </script>
-	<!--button onclick="goFullscreen()">Fullscreen24</button-->
+	<button onclick="goFullscreen()">Fullscreen012</button>
 	<div id="unity-fullscreen-button"></div>
 	
 	<script>

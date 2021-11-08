@@ -95,6 +95,7 @@ document.write('<iframe id="embededGame" src = "https://i.simmer.io/@spotmaze/ha
 	{
 		alert('Full screen clicked!');
 		var element = document.getElementById("embededGame");
+		element.requestFullscreen();
 		if (element.mozRequestFullScreen) 		{      element.mozRequestFullScreen();   	} 
 		else if (element.webkitRequestFullScreen) 	{      element.webkitRequestFullScreen();    	}
 	}

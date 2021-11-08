@@ -116,12 +116,7 @@ Spotmaze is a virtual world for hosting forurms at virtual locations\n\-->
 -->
 <script>
 url = window.location.search.replace(/\?|%3f/gi, '');
-document.write('<iframe id="embededGame" src = "https://i.simmer.io/@spotmaze/hangout-spots?' + url + '"\style = "border: 0px; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>');
-</script>
-<footer>
-<button onclick="goFullscreen()">Fullscreen</button>
- 
-<script>
+document.write('<iframe id="embededGame" src = "https://i.simmer.io/@spotmaze/hangout-spots?' + url + '"\style = "border: 0px; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe><button onclick="goFullscreen()">Fullscreen</button>');
 function goFullscreen()
 {
     	var element = document.getElementById("embededGame");
@@ -129,6 +124,4 @@ function goFullscreen()
 	else if (element.webkitRequestFullScreen) 	{      element.webkitRequestFullScreen();    	}
 }
 </script>
-	
-</footer>	
 </html>

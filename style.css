@@ -22,7 +22,7 @@ body, html {
 	height: 4%;
 	margin: 0;
 	padding: 0;
-	aspect-ratio: 1.2;
+	aspect-ratio: 1;
 	overflow: hidden;
 	background: url('fullscreen-button-small.png') no-repeat center;
 }

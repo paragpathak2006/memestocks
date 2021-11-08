@@ -85,7 +85,7 @@ Spotmaze is a virtual world for hosting forurms at virtual locations\n\-->
 -->
 <script>
 url = window.location.search.replace(/\?|%3f/gi, '');
-document.write('<iframe id="embededGame" src = "https://i.simmer.io/@spotmaze/hangout-spots" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>');
+document.write('<iframe id="embededGame" src = "https://i.simmer.io/@spotmaze/hangout-spots" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
 </script>
 	<div id="unity-fullscreen-button"></div>
 	<script>
@@ -93,11 +93,12 @@ document.write('<iframe id="embededGame" src = "https://i.simmer.io/@spotmaze/ha
 	fullscreenButton.onclick = () => { goFullscreen(); };
 	function goFullscreen()
 	{
-		alert('Full screen clicked!');
+		
 		var element = document.getElementById("embededGame");
-		element.requestFullscreen();
-		if (element.mozRequestFullScreen) 		{    console.log('mozRequestFullScreen');  element.mozRequestFullScreen();   		} 
-		else if (element.webkitRequestFullScreen) 	{   console.log('webkitRequestFullScreen!');   element.webkitRequestFullScreen();    	}
+		if (element.mozRequestFullScreen) 		{    		alert('mozRequestFullScreen!'); console.log('mozRequestFullScreen');  element.mozRequestFullScreen();   		} 
+		else if (element.webkitRequestFullScreen) 	{ 		alert('webkitRequestFullScreen!'); console.log('webkitRequestFullScreen!');   element.webkitRequestFullScreen();    	}
+		else 		{alert('Full screen clicked!'); 	element.requestFullscreen();}
+
 	}
 	</script>
 </html>

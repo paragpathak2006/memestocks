@@ -117,6 +117,7 @@ document.write('<iframe id="embededGame" src = "https://i.simmer.io/@spotmaze/ha
 
 	<script>
 	var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+	fullscreenButton.onclick = () => { goFullscreen(); };
 	function goFullscreen()
 	{
 		var element = document.getElementById("embededGame");

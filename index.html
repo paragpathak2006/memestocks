@@ -94,10 +94,10 @@ document.write('<iframe id="embededGame" src = "https://i.simmer.io/@spotmaze/ha
 	function goFullscreen()
 	{
 		var element = document.getElementById("embededGame");
-		window.open("https://spotmaze.world","_blank");
+		//window.open("https://spotmaze.world","_blank");
+		element.requestFullscreen();
 		if (element.mozRequestFullScreen) 		{    		console.log('mozRequestFullScreen');  element.mozRequestFullScreen();   		} 
 		else if (element.webkitRequestFullScreen) 	{ 		console.log('webkitRequestFullScreen!');   element.webkitRequestFullScreen();    	}
-		element.requestFullscreen();
 
 	}
 	</script>

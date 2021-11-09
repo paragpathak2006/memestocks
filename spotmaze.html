@@ -81,16 +81,13 @@
     Username = url.substring(LastSlash + 1).replace(/\?|%3f/gi, '');
     Filename = Query.replace(/\?|%3f/gi, '');
 
-	if (Filename == null || Filename == undefined || Filename.length == 0) {
-		Params = "user=" + Username;
-	} else {  
-		Params = "user=" + Username + "&file=" + "spotmaze" + ".json";
-	}
+	if (Filename == null || Filename == undefined || Filename.length == 0) {		Params = "user=" + Username;	} 
+	else {  										Params = "user=" + Username + "&file=" + Filename + ".json";	}	
 
-    document.write('<iframe id="embededGame" src="https://i.simmer.io/@spotmaze/hangout-spots?' + Params + '"></iframe>');
-</script>
-<div id="unity-fullscreen-button"></div>
-<script>
+	document.write('<iframe id="embededGame" src="https://i.simmer.io/@spotmaze/hangout-spots?' + Params + '"></iframe>');
+	</script>
+	<div id="unity-fullscreen-button"></div>
+	<script>
 	var fullscreenButton = document.querySelector("#unity-fullscreen-button");
 	fullscreenButton.onclick = () => { goFullscreen(); };
 	function goFullscreen()

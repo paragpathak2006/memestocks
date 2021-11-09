@@ -73,7 +73,7 @@
 	{	
 		url = window.location.pathname;
 		Query = window.location.search;
-		if(url.includes("embed"))
+		if(url.includes('embed'))
 		{
 			LastSlash = url.lastIndexOf('/');
 			Username = url.substring(LastSlash + 1).replace(/\?|%3f/gi, '');

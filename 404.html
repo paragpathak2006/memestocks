@@ -63,7 +63,10 @@
 	if(Filename == null || Filename == undefined || Filename.length == 0) {		Params = "user=" + Username;	} 
 	else {										Params = "user=" + Username + "&file=" + Filename + ".json";	}
 
-	document.write('<iframe id="embededGame" src="https://i.simmer.io/@spotmaze/hangout-spots?' + Params + '"></iframe><div id="unity-fullscreen-button"></div>');
+	document.write('<iframe id="embededGame" src="https://i.simmer.io/@spotmaze/hangout-spots?' + Params + '"></iframe>');
+	</script>
+	<div id="unity-fullscreen-button"></div>
+	<script>
 	var fullscreenButton = document.querySelector("#unity-fullscreen-button");
 	fullscreenButton.onclick = () => {		goFullscreen();			};
 	function goFullscreen() 

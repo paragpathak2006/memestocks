@@ -25,6 +25,7 @@
         <div id="unity-buttonbox3" style="border:solid 1px black; width:200px; height:30; margin:auto; text-align:center">Reset</div>
       </div>
     </div>
+    <script src="//static.filestackapi.com/filestack-js/3.x.x/filestack.min.js"></script>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/tabling1.loader.js";
@@ -66,7 +67,7 @@
           var spot1 = "spot1";
           var spot2 = "spot2";
           fullscreenButton.onclick = () => { unityInstance.SetFullscreen(1);};
-          buttonbox1.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot1); };
+          buttonbox1.onclick = () => { client.picker().open(); };
           buttonbox2.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',spot2); };
           buttonbox3.onclick = () => {  unityInstance.SendMessage('MainCamera','setWebGLStartingPos',"origin"); };
         }).catch((message) => {
